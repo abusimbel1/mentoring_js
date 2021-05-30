@@ -10,7 +10,7 @@
     "test": "jest -c ./jest.unit.json",
     "test:coverage": "jest --coverage -c ./jest.unit.json",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "prettier-eslint '**/*.ts' --write"
   },
   "husky": {
     "hooks": {
