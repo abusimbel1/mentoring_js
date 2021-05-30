@@ -6,7 +6,7 @@ import './style.scss'
 const a = 1
 const h1 = document.createElement('h1')
 document.body.appendChild(h1)
-const newH1 = document.querySelector('h1')
+const newH1 = document.querySelector('h1   ')
 newH1?.setAttribute('id', 'title')
 if (newH1) {
   newH1.innerHTML = 'Hello1222!'
