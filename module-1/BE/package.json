@@ -24,10 +24,6 @@
       "git add"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abusimbel1/mentoring_js.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
