@@ -14,7 +14,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint:fix"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
@@ -23,6 +23,10 @@
       "npm run lint:fix",
       "git add"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abusimbel1/mentoring_js.git"
   },
   "keywords": [],
   "author": "",
