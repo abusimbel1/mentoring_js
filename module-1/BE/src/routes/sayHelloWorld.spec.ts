@@ -18,7 +18,7 @@ describe('Get "Hello" string', () => {
 
   test('Hello string', () => {
     const expectedStatusCode = 200;
-    const ExpectedResponse = {data: 'Hello'};
+    const ExpectedResponse = {data: 'Hello'}   ;
 
     sayHello(mockRequest as Request, mockResponse as Response);
 
