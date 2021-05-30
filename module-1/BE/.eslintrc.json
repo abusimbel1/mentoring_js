@@ -1,13 +1,13 @@
 {
-    "extends": [
-        "standard", "airbnb", "prettier", "plugin:node/recommended"
-    ],
     "plugins": [
         "@typescript-eslint",
         "prettier"
     ],
+    "extends": [
+        "standard", "airbnb", "prettier", "plugin:node/recommended"
+    ],
     "rules": {
-        "prettier/prettier": "error",
+        "prettier/prettier": "off",
         "no-unused-vars": "warn",
         "no-console": "off",
         "func-names": "off",
@@ -16,7 +16,15 @@
         "class-methods-use-this": "off",
         "no-underscore-dangle":"off",
         "camelcase": "off",
-        "node/no-unsupported-features/es-syntax": "off"
+        "node/no-unsupported-features/es-syntax": "off",
+        "strict": "off",
+        "lines-around-directive": "off",
+        "no-var": "warn",
+        "import/newline-after-import": "warn",
+        "import/no-unresolved": "warn",
+        "import/extensions": "warn",
+        "node/no-missing-import": "warn",
+        "no-undef": "warn"
     },
     "parserOptions": {
         "sourceType": "module"
