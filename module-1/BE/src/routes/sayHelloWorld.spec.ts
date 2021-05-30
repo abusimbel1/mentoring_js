@@ -17,12 +17,12 @@ describe('Get "Hello" string', () => {
   })
 
   test('Hello string', () => {
-    // const expectedStatusCode = 200;
-    // const ExpectedResponse = {data: 'Hello'}   ;
+    const expectedStatusCode = 200;
+    const ExpectedResponse = {data: 'Hello'}   ;
 
-    // sayHello(mockRequest as Request, mockResponse as Response);
+    sayHello(mockRequest as Request, mockResponse as Response);
 
-    // expect(mockResponse.statusCode).toBe(expectedStatusCode);
-    // expect(responseObj).toEqual(ExpectedResponse);
+    expect(mockResponse.statusCode).toBe(expectedStatusCode);
+    expect(responseObj).toEqual(ExpectedResponse);
   })
 })
